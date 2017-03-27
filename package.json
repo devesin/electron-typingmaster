@@ -1,0 +1,23 @@
+{
+  "name": "TypingPractice",
+  "version": "1.0.0",
+  "description": "Typing Practice Apps",
+  "main": "main.js",
+  "scripts": {
+    "postinstall": "install-app-deps",
+    "start": "electron .",
+    "dev": "NODE_ENV='development' npm run start",
+    "dist": "build -mwl --x64 --ia32"
+  },
+  "author": "Esin Quareeb",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.1",
+    "electron-builder": "^14.5.3",
+    "electron-packager": "^8.5.2"
+  },
+    "build": {
+        "appId": "com.TypingPractice.app",
+        "app-category-type": "public.app-category.productivity"
+    }
+}
