@@ -20,3 +20,7 @@ or visit
 # https//electron.atom.io
 
 For more information
+
+Follow this link to check the presentation on slide
+
+https://www.slideshare.net/QuareebEsinniobiwaqu/crossplatform-desktop-apps-development-using-html-css-js-with-electron
